@@ -1,0 +1,221 @@
+{
+  "items": [
+    {
+      "imageRes": "https://sun9-10.userapi.com/impg/xDuD9g4cP9qmlz8DP0QiWQeN1BG25cwgVCaD2Q/UWDEJjcN_BQ.jpg?size=1200x1200&quality=95&sign=e2e96b1dcd05a538b01bd5bbda00128e&type=album",
+      "price": 55,
+      "seller": "Nike",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-19.userapi.com/impg/bXRdmDXtjX1GsnCYd9tE4iItV2i93vr7EyNuzw/HEM2ibu7pJs.jpg?size=900x1200&quality=95&sign=0c919a000e470c6f88e1006f4fba6657&type=album",
+      "price": 65,
+      "seller": "Adidas",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-78.userapi.com/impg/6Rdkxx01Nwg6juoMcj4hccaraUjt0CGDoe2fUQ/vMUYy9DMV9k.jpg?size=630x630&quality=95&sign=e0ec65b0dd543ed2f7f1bc46a6f127d1&type=album",
+      "price": 70,
+      "seller": "Puma",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-66.userapi.com/impg/Gi2SVR3wQyHqF7-uFupgnTPmJUqP82MK9-WBlQ/izhBwU96f0c.jpg?size=895x895&quality=95&sign=ea3ba55df4f367d58f856d006d5f2f9d&type=album",
+      "price": 80,
+      "seller": "Reebok",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-31.userapi.com/impg/6LE1G5rZTSUy2iDOCD5eT71GLr551IDzQtBe_A/R-jzLteIQlI.jpg?size=1536x1536&quality=95&sign=715f22e33c889f806d61c89a8a73cf1d&type=album",
+      "price": 50,
+      "seller": "New Balance",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-20.userapi.com/impg/TkwYV0wTZaOAMRX8dI0fRd6LQtA71xRFQcRvrA/hS8WbaQUELw.jpg?size=840x840&quality=95&sign=7dfd17dc82c1bb32b50c31ecad1d7724&type=album",
+      "price": 85,
+      "seller": "Nike",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-22.userapi.com/impg/2KyKhqNa0Gtm-cFEm52sXfr3_iJDOivGbBrj2A/tBs3wi4CqWI.jpg?size=1024x768&quality=95&sign=621fb9b3b79c7fe02e6e9d64396c3c91&type=album",
+      "price": 95,
+      "seller": "Asics",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-69.userapi.com/impg/XydRbJe1R4PNJYWewooz1zuKrv4iMDJWnNEVrg/uV7Z1gRnx98.jpg?size=800x800&quality=95&sign=84afa6e021ba2960f54725551518b172&type=album",
+      "price": 60,
+      "seller": "Skechers",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-46.userapi.com/impg/Efv9uvn6k13vBrgcZ1uLVyV9hcV83Cvqr4N_KQ/2r7s7JT_0Ik.jpg?size=1500x2000&quality=95&sign=8122133af032c51209d1771b105efa20&type=album",
+      "price": 75,
+      "seller": "Vans",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-47.userapi.com/impg/tUldCgv7IF3MT_cHwUF4ZJJWC-fz5PPZsDKnJw/-815qfbDhDk.jpg?size=1644x777&quality=95&sign=5b54713ae51cb6de82e414fdee87b803&type=album",
+      "price": 90,
+      "seller": "Under Armour",
+      "description": "Кроссовки"
+    },
+    {
+      "imageRes": "https://sun9-43.userapi.com/impg/c103mSMj5IFWilWlXvCxKV6OxqYH3PPGQ0enKg/wx9IXYplg8Q.jpg?size=734x734&quality=95&sign=614362611612fd0fe0983642ae070483&type=album",
+      "price": 120,
+      "seller": "Adidas",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-45.userapi.com/impg/t7v6wtoI7OtNBymEEqzFv9TopWDojNX8yGSlDA/ei_I5okcfo0.jpg?size=800x800&quality=95&sign=02d5d700df353af62105be8355f3e175&type=album",
+      "price": 130,
+      "seller": "Timberland",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-12.userapi.com/impg/A8pEq67Nr4tKkZ8ch_GMqhiUk-MMFa6gB_15uQ/xKaj85vZojU.jpg?size=630x630&quality=95&sign=bbf4e79c016078266e4087c6290d0e45&type=album",
+      "price": 140,
+      "seller": "Dr. Martens",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-67.userapi.com/impg/isb5PbHUlhCXweqmJaq3ZDVmH0fZN8BrlrwP6w/VwGJuNG7k8c.jpg?size=630x609&quality=95&sign=d15b037867e6257660365fa008b34fad&type=album",
+      "price": 110,
+      "seller": "UGG",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-47.userapi.com/impg/gPbzOrps-iwvRy9TAUWHCJbfmg_JYWFvyqZBGA/7NTTfS3HQ8Q.jpg?size=1600x1600&quality=95&sign=54e9fed9cb917642da77b120977a04c4&type=album",
+      "price": 150,
+      "seller": "Clarks",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-26.userapi.com/impg/isQwKAuZOYMGlPQKcLTXXH7QOpGgaWOSgdA9fA/iexGRjH7Ras.jpg?size=1440x1920&quality=95&sign=ea4f3982aac7b8a675dc7c70f066c5b9&type=album",
+      "price": 100,
+      "seller": "Timberland",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-72.userapi.com/impg/YP96-qcJBlg8QX_QBKi149qNr6q3fIEzL67jTg/DsjapXpqghs.jpg?size=1000x750&quality=95&sign=85e550bf7cd1435ff97e5108d425576e&type=album",
+      "price": 120,
+      "seller": "Caterpillar",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-60.userapi.com/impg/pe5VGiWwrKrBGYN9AkjGFaijBEk81EnPf48fyw/ruLyuFBXCCE.jpg?size=1200x1200&quality=95&sign=951d6d54c904fc672e67fd676020880e&type=album",
+      "price": 110,
+      "seller": "North Face",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-27.userapi.com/impg/b-Qbw-v-WVqu2UC0NX5kiD6aynafvn-EoVk-Jw/t6zjVqBIKng.jpg?size=1920x1920&quality=95&sign=e7d7aa0852c87ced4b30c98adb120216&type=album",
+      "price": 135,
+      "seller": "Native",
+      "description": "Ботинки"
+    },
+    {
+      "imageRes": "https://sun9-32.userapi.com/impg/GBKvd1g5aSsag7u4OZ6ZHv1932ptSYjB9nL1Yw/ZQo1ffSzaVI.jpg?size=1080x1440&quality=95&sign=2d9bfa4b54e8c162829d18cbd9259ee9&type=album",
+      "price": 45,
+      "seller": "H&M",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-49.userapi.com/impg/n9ih5sfjXRMRrgYlXXnPwYpoa4TFDN_KX9_HLw/PlTYT3CfwHw.jpg?size=1080x1440&quality=95&sign=7b5b4fbecafc80ed8f2c5c9cb1fd192d&type=album",
+      "price": 40,
+      "seller": "Uniqlo",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-58.userapi.com/impg/z6dRscUabNSJAULQ8REInkB3CHvBzp7KH87ldA/2KyY03U9G-k.jpg?size=1502x2000&quality=95&sign=e42e76f84f69b2872971f4a2903e2b21&type=album",
+      "price": 35,
+      "seller": "Zara",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-4.userapi.com/impg/ZiHkkBea8iePYKTGtaJ4H0RLBmtjhZ5Vh0fdkA/gBO1kTYbGtY.jpg?size=1200x1200&quality=95&sign=e6accaa16c9614fd7058dcde82ad5ef4&type=album",
+      "price": 30,
+      "seller": "Asics",
+      "description": "Поло"
+    },
+    {
+      "imageRes": "https://sun9-20.userapi.com/impg/ysUpLOl04yPc2FH1NWf6m2m5SN8wKaCTVeNSxw/zKeEs1WHXOg.jpg?size=1880x1880&quality=95&sign=81082300c014a89f3045ad4e0cbddea2&type=album",
+      "price": 25,
+      "seller": "adidas",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-25.userapi.com/impg/9aatv4TvW_zFQZs7lGe4R6Pwd5XQ15DtFupuUQ/KU5AkexBA7k.jpg?size=1385x2000&quality=95&sign=32cb35b72fc2831aab4969bf9fe5b4ad&type=album",
+      "price": 40,
+      "seller": "Zara",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-77.userapi.com/impg/gtI5NLEAvbmbhoUt4QUf4733JV1Q01mkMtwMRg/WDL_NYFpMn0.jpg?size=900x1200&quality=95&sign=a3612ee04e8e90db3eeb713d401fd258&type=album",
+      "price": 30,
+      "seller": "Nike",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-38.userapi.com/impg/bnLQoHT6NhQ_MNjyV4plEpy0oshHnggbXjvoOA/8SIzmnQSn1M.jpg?size=2000x2000&quality=95&sign=2337057a3eb8051092814f674d0aa78f&type=album",
+      "price": 55,
+      "seller": "Adidas",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-24.userapi.com/impg/lkK1gtlrdU0r6W1tnpd_BRi2FC4GUwAytaHjsg/1gEkhvkrmCk.jpg?size=800x800&quality=95&sign=c7f56cb6af418102b093b1796f57c9e8&type=album",
+      "price": 60,
+      "seller": "Puma",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-67.userapi.com/impg/EOiwILa7RPO_ae5GrAJGocbk9vrqdlYDwzSCrg/3fQV9dYVV8I.jpg?size=640x780&quality=95&sign=d52e21d19208a66255db58a84ff1807b&type=album",
+      "price": 70,
+      "seller": "H&M",
+      "description": "Футболка"
+    },
+    {
+      "imageRes": "https://sun9-27.userapi.com/impg/uXP5Ya-qHyGXWvHUu_ycqLGFncu4__r0c8tHkQ/Rw8HMEr7JcA.jpg?size=2000x2000&quality=95&sign=b43aedbf49eb00d59b1e7b3a4897980f&type=album",
+      "price": 100,
+      "seller": "Nike",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-80.userapi.com/impg/PL0SFyBXPqxcItFiQd_vuVhxqcvG8voCsb4w3Q/zgtcoEVVK2s.jpg?size=1499x2000&quality=95&sign=045ee2990fa0b9e74100fc6ae17db299&type=album",
+      "price": 120,
+      "seller": "Adidas",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-8.userapi.com/impg/G87J4HQtACsogkyTOuH1WKWpFy1v_y3vHWR9PQ/6tk97ocAp8o.jpg?size=682x1233&quality=95&sign=afc54b417b9c787693c84161ba62f213&type=album",
+      "price": 130,
+      "seller": "Nike",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-62.userapi.com/impg/N_uyIx0CrfmMrJjGYeVE--n-DyJ9SIzoIm2MnA/kic9cRfLEh8.jpg?size=2000x2000&quality=95&sign=33d4bacd7262537e7284d3d05d6384ca&type=album",
+      "price": 140,
+      "seller": "Puma",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-26.userapi.com/impg/hxyaZ43ihNMj6v2oZsnDM-rn1lxHD6di9u1d_A/m2wOB--eQtg.jpg?size=2000x2000&quality=95&sign=fbcae6dfe8a8520c61ed981cbc52745d&type=album",
+      "price": 150,
+      "seller": "Reebok",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-53.userapi.com/impg/e9SI20gaIioE81tAZSgdL7AoQoLlRWigh5hKwg/CHZFlQ-55wo.jpg?size=1500x2000&quality=95&sign=cd97384bc45b3d7138554717ac32b195&type=album",
+      "price": 160,
+      "seller": "Under Armour",
+      "description": "Куртка"
+    },
+    {
+      "imageRes": "https://sun9-42.userapi.com/impg/lozCjRMdQlTG3QwFHMMolSosFTkEW0-lKZzl_Q/6QaUWScMva4.jpg?size=1200x1200&quality=95&sign=fd0af86e8c865ba929618e2e3b37ad6c&type=album",
+      "price": 170,
+      "seller": "Vans",
+      "description": "Куртка"
+    }
+
+  ]
+}

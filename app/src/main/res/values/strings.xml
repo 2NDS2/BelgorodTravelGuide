@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Белгород путеводитель</string>
+    <!--фрагмент профиля-->
+    <string name="profile_item">Профиль</string>
+    <string name="name_user_text">Имя пользователя</string>
+    <string name="money_text">Баланс:</string>
+    <string name="about_me_text">О себе:</string>
+    <string name="birthday_text">Дата рождения:</string>
+    <string name="city_text">Город:</string>
+    <string name="status_text">Статус:</string>
+    <string name="email_text">Почта:</string>
+    <string name="social_network_text">Социальные сети:</string>
+    <string name="phone_number_text">Телефон:</string>
+    <string name="rating_text">Рейтинг пользователя:</string>
+
+    <!--фрагмент магазина-->
+    <string name="market_item">Маркет</string>
+    <!--фрагмент новостей-->
+    <string name="news_item">Новости</string>
+
+
+    <!--фрагмент развлечений-->
+    <string name="entertainment_item">Развлечения</string>
+
+
+    <string name="class_sport">Спорт</string>
+    <string-array name="class_sport_detail">
+        <item>Белгород Арена</item>
+        <item>Учебно-спортивный комплекс Светланы Хоркиной НИУ БелГУ</item>
+        <item>Луч</item>
+        <item>Космос</item>
+        <item>Стадион</item>
+        <item>Ледовая арена Оранжевый лёд</item>
+        <item>Стадион БГТУ им. В.Г. Шухова</item>
+    </string-array>
+
+    <string name="class_park">Парки</string>
+    <string-array name="class_park_detail">
+        <item>Центральный парк</item>
+        <item>Парк Котофей</item>
+        <item>Дино парк</item>
+        <item>Пикник парк</item>
+        <item>Парк победы</item>
+    </string-array>
+
+    <string name="class_museum">Музеи</string>
+    <string-array name="class_museum_detail">
+        <item>Белгородский художественный музей.\</item>
+        <item>Контактный Музей Средневекового Военного Дела</item>
+        <item>Белгородский государственный музей народной культуры</item>
+        <item>Белгородский литературный музей</item>
+        <item>Музей-Диорама Курская Битва. Белгородское Направление</item>
+        <item>Белгородский государственный литературный музей</item>
+        <item>Музей связи</item>
+    </string-array>
+
+    <string name="class_theater">Театры</string>
+    <string-array name="class_theater_detail">
+        <item>Белгородский государственный академический драматический театр имени М.С. Щепкина</item>
+        <item>Артист</item>
+        <item>Белгородский государственный театр кукол</item>
+        <item>Музыкальный театр для детей и молодёжи</item>
+        <item>Белгородская государственная филармония</item>
+    </string-array>
+
+    <string name="class_cinema">Кинотеатры</string>
+    <string-array name="class_cinema_detail">
+        <item>Русич</item>
+        <item>Гринн фильм</item>
+        <item>Синема парк</item>
+        <item>Синема стар</item>
+        <item>Спутник</item>
+    </string-array>
+
+    <string name="class_attractions">Аттракционы</string>
+    <string-array name="class_attractions_detail">
+        <item>Калейдоскоп</item>
+        <item>nГриннландия</item>
+        <item>Стимград</item>
+        <item>Тропикано</item>
+        <item>Parallel world</item>
+    </string-array>
+
+    <string name="class_shopping">Торговые центры</string>
+    <string-array name="class_shopping_detail">
+        <item>Сити Молл</item>
+        <item>Универмаг Белгород</item>
+        <item>Рио</item>
+        <item>МегаГринн</item>
+        <item>Атлас</item>
+        <item>Модный Бульвар</item>
+        <item>Семейный</item>
+        <item>Славянский</item>
+    </string-array>
+</resources>
+
+
+<!--
+    <string name="class_sport_detail">Белгород Арена.\nУчебно-спортивный комплекс Светланы Хоркиной НИУ БелГУ.\nЛуч.\nКосмос.\nСтадион.\nЛедовая арена Оранжевый лёд.\nСтадион БГТУ им. В.Г. Шухова</string>
+    <string name="class_park_detail">Центральный парк.\n Парк Котофей.\n Дино парк.\nПикник парк.\nПарк победы</string>
+    <string name="class_museum_detail">Белгородский художественный музей.\nКонтактный Музей Средневекового Военного Дела.\nБелгородский государственный музей народной культуры.\nБелгородский литературный музей.\nМузей-Диорама Курская Битва. Белгородское Направление.\nБелгородский государственный литературный музей.\nМузей связи </string>
+    <string name="class_theater_detail">Артист.\nБелгородский государственный академический драматический театр имени М.С. Щепкина.\nБелгородский государственный театр кукол.\nМузыкальный театр для детей и молодёжи.\nБелгородская государственная филармония</string>
+    <string name="class_cinema_detail">Русич\nГринн фильм\nСинема парк\nСинема стар\nСпутник</string>
+    <string name="class_shopping_detail">Сити Молл.\nУнивермаг Белгород.\nРио.\nМегаГринн.\nАтлас.\nМодный Бульвар.\nСемейный.\nСлавянский</string>
+    <string name="class_attractions_detail">Калейдоскоп.\nГриннландия.\n Стимград.\n Тропикано.\n Parallel world.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>-->

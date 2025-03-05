@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--СВЕТЛАЯ ТЕМА-->
+<resources>
+<color name="black">#FF000000</color>
+<color name="white">#FFFFFFFF</color>
+<color name="eerie_black_color_toolbar">#1b1a1e</color>
+<color name="text_toolbar_color">#0d0d0d</color>
+<color name="color_in_active_nav_btn">#0d0d0f</color>
+<color name="color_active_nav_btn">#ff2f5f</color>
+<color name="background_fragmen_color">#f3f3f1</color>
+<color name="background_card_color">#FFFFFFFF</color>
+<color name="text_color_red">#DB0404</color>
+<color name="turquoise_buy">#14B3AD</color>
+<color name="price">#FF3B38</color>
+<color name="search">#f3f2f6</color>
+
+
+</resources>

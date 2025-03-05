@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:circularflow_defaultRadius="16dp"
+            android:background="@color/background_card_color"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/text_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="Введите ФИО"/>
+
+            <EditText
+                android:id="@+id/aboutMeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите информацию о себе"
+                android:inputType="textPersonName|textCapSentences"
+                android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/birthdayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/turquoise_buy"
+                android:textColor="@color/turquoise_buy"
+                android:text="Введите дату рождения"
+                android:inputType="textPersonName|textCapSentences"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/cityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите ваш город"
+                android:inputType="textPersonName|textCapSentences"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите статус (школьник, студент)"
+                android:inputType="textPersonName|textCapSentences"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="Введите почту"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/phoneNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="Введите номер телефона"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/socialNetworkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapSentences"
+                android:hint="Введите свои социальные сети"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="@color/turquoise_buy"
+                android:text="Сохранить"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95410271354",
+    "project_id": "belgorod-travel-guide-market",
+    "storage_bucket": "belgorod-travel-guide-market.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95410271354:android:2e04ef22212670316377c3",
+        "android_client_info": {
+          "package_name": "com.example.belgorodtravelguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfPqks62aNYmV7hVEsACz7ZJi9wyNMwxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
