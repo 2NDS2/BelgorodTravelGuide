@@ -1,4 +1,4 @@
-# BelgorodTravelGuide
+# Белгород путеводитель
 ## Использованные технологии
 - BottomNavigationView
 - RecyclerView
