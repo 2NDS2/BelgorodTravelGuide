@@ -1,6 +1,11 @@
 # BelgorodTravelGuide
-
-
+## Использованные технологии
+- BottomNavigationView
+- RecyclerView
+- Image Slider
+- DataBinding
+- MVVM
+- Получение данных из сети - Retrofit
 
 ## Демонстрация
 #### Фрагмент новостей.<br/>
@@ -25,12 +30,3 @@
 ## Видео работы приложения.<br/>
 https://github.com/user-attachments/assets/55e8a818-21d7-4f6d-b782-c7c9b24120c8
 https://github.com/user-attachments/assets/c7cc9e46-8e98-4b1b-b06c-b3f638491828
-
-## Использованные технологии
-- BottomNavigationView
-- RecyclerView
-- Image Slider
-- DataBinding
-- MVVM
-- Получение данных из сети - Retrofit
-
