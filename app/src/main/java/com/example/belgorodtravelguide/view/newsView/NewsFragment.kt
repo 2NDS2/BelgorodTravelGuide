@@ -11,8 +11,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.belgorodtravelguide.data.db.AppDatabase
 import com.example.belgorodtravelguide.databinding.FragmentNewsBinding
-import com.example.belgorodtravelguide.data.modelNews.bd.NewsDatabase
 import com.example.belgorodtravelguide.viewModel.newsVM.NewsViewModel
 import com.example.belgorodtravelguide.viewModel.newsVM.factory.NewsViewModelFactory
 
@@ -29,7 +29,7 @@ class NewsFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         _binding = FragmentNewsBinding.inflate(inflater, container, false)
-        val ViewModelFactory = NewsViewModelFactory(NewsDatabase.getDatabase(requireContext()),requireContext())
+        val ViewModelFactory = NewsViewModelFactory(AppDatabase.getInstance(requireContext()),requireContext())
         viewModel = ViewModelProvider(this,ViewModelFactory).get(NewsViewModel::class.java)
 
         setupRecyclerView()

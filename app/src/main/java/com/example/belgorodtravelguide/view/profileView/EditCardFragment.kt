@@ -25,7 +25,7 @@ class EditCardFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(ProfileAndMarketViewModel::class.java)
 
         viewModel.createProfileIfNeeded(requireContext())               // Проверяем, есть ли профиль в бд и создаём его, если нет
-        GetAndPack()                                                    // Получаем данные из бд и заполняем UI
+        getAndPack()                                                    // Получаем данные из бд и заполняем UI
         binding.birthdayText.setOnClickListener{callDataPicerDialog()}  // Обработчик для поля ввода даты рождения
         binding.saveButton.setOnClickListener {saveData()}              // Обработчик для кнопки "Сохранить"
 
@@ -38,7 +38,7 @@ class EditCardFragment : Fragment() {
         }
     }
 
-    fun GetAndPack() {
+    fun getAndPack() {
         viewModel.editData(requireContext()) { profile ->
             profile?.let {
                 binding.textUserName.setText(it.nameUser)

@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -18,14 +19,12 @@ class ProfileFragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding!!
-    private lateinit var viewModel: ProfileAndMarketViewModel
+    private val viewModel: ProfileAndMarketViewModel by viewModels()
     private val profileRepository = ProfileRepository()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
-        viewModel = ViewModelProvider(this).get(ProfileAndMarketViewModel::class.java) //инициализация ViewModel
-
         LoadProfileInBD()                                          //Загружаем данные профиля из БД
         showDataBirday()                                           //данные о дате и возрасте
         binding.fabEditProfile.setOnClickListener {OpenEditCard()} //открыть редактирование профиля

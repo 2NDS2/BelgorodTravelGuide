@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.data.modelNews.bd
+package com.example.belgorodtravelguide.data.modelNews.entityAndDao
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

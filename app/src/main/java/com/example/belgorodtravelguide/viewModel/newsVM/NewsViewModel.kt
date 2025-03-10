@@ -11,8 +11,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.belgorodtravelguide.data.modelNews.api.NewsArticle
 import com.example.belgorodtravelguide.data.modelNews.api.NewsResponse
 import com.example.belgorodtravelguide.data.modelNews.api.RetrofitInstance
-import com.example.belgorodtravelguide.data.modelNews.bd.NewsArticleEntity
-import com.example.belgorodtravelguide.data.modelNews.bd.NewsDatabase
+import com.example.belgorodtravelguide.data.modelNews.entityAndDao.NewsArticleEntity
+import com.example.belgorodtravelguide.data.db.AppDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -20,7 +20,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class NewsViewModel(private val newsDatabase: NewsDatabase, private val context: Context) : ViewModel() {
+class NewsViewModel(private val appDatabase: AppDatabase, private val context: Context) : ViewModel() {
 
     //LiveData для хранения списка новостей
     private val _news = MutableLiveData<List<NewsArticle>>()
@@ -76,7 +76,7 @@ class NewsViewModel(private val newsDatabase: NewsDatabase, private val context:
                         url = article.link
                     )
                 }
-                newsDatabase.newsDao().insertAll(newsEntities)  // Вставляем все записи за один раз
+                appDatabase.newsDao().insertAll(newsEntities)  // Вставляем все записи за один раз
             }
         }
     }
@@ -85,7 +85,7 @@ class NewsViewModel(private val newsDatabase: NewsDatabase, private val context:
     fun loadNewsFromDatabase() {
         viewModelScope.launch {
             val newsList = withContext(Dispatchers.IO) {
-                newsDatabase.newsDao().getAllNews()
+                appDatabase.newsDao().getAllNews()
             }
             _news.value = newsList.map {
                 NewsArticle(
@@ -102,7 +102,7 @@ class NewsViewModel(private val newsDatabase: NewsDatabase, private val context:
     fun clearDatabase() {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                newsDatabase.newsDao().deleteAllNews()
+                appDatabase.newsDao().deleteAllNews()
             }
         }
     }
