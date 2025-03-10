@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelMarket
+package com.example.belgorodtravelguide.data.modelMarket
 
 data class Item(
     val imageRes: String,

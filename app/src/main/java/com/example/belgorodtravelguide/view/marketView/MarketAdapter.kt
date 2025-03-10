@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.viewModel.profileAndMarketVM
+package com.example.belgorodtravelguide.view.marketView
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,8 +11,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import com.example.belgorodtravelguide.R
-import com.example.belgorodtravelguide.model.modelMarket.Item
-import com.example.belgorodtravelguide.model.modelProfile.ProfileRepository
+import com.example.belgorodtravelguide.data.modelMarket.Item
+import com.example.belgorodtravelguide.data.repository.ProfileRepository
+import com.example.belgorodtravelguide.viewModel.profileAndMarketVM.ProfileAndMarketViewModel
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.launch
 

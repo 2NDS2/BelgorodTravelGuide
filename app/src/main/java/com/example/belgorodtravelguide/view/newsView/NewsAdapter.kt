@@ -1,11 +1,11 @@
-package com.example.belgorodtravelguide.viewModel.newsVM
+package com.example.belgorodtravelguide.view.newsView
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.belgorodtravelguide.databinding.ItemNewsBinding
-import com.example.belgorodtravelguide.model.modelNews.api.NewsArticle
+import com.example.belgorodtravelguide.data.modelNews.api.NewsArticle
 import com.squareup.picasso.Picasso
 
 class NewsAdapter(private val onItemClick: (String) -> Unit) : RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {

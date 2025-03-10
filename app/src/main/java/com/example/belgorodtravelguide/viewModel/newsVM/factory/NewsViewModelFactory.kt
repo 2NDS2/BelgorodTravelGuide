@@ -3,7 +3,7 @@ package com.example.belgorodtravelguide.viewModel.newsVM.factory
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.belgorodtravelguide.model.modelNews.bd.NewsDatabase
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsDatabase
 import com.example.belgorodtravelguide.viewModel.newsVM.NewsViewModel
 
 class NewsViewModelFactory(

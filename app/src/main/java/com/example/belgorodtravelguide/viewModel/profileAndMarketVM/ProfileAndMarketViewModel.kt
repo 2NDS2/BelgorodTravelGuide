@@ -9,10 +9,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.belgorodtravelguide.model.modelMarket.Item
-import com.example.belgorodtravelguide.model.modelMarket.MarketResponse
-import com.example.belgorodtravelguide.model.modelProfile.Profile
-import com.example.belgorodtravelguide.model.modelProfile.ProfileRepository
+import com.example.belgorodtravelguide.data.modelMarket.Item
+import com.example.belgorodtravelguide.data.modelMarket.MarketResponse
+import com.example.belgorodtravelguide.data.modelProfile.Profile
+import com.example.belgorodtravelguide.data.repository.ProfileRepository
 import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import java.io.InputStreamReader

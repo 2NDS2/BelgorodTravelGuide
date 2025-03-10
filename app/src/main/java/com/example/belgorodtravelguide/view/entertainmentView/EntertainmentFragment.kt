@@ -10,10 +10,9 @@ import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.belgorodtravelguide.R
 import com.example.belgorodtravelguide.databinding.FragmentEntertainmentBinding
-import com.example.belgorodtravelguide.model.modelEntertainment.CategoriesListData
-import com.example.belgorodtravelguide.model.modelEntertainment.CategoryDetail
-import com.example.belgorodtravelguide.model.modelEntertainment.HeaderData
-import com.example.belgorodtravelguide.viewModel.entertainmentVM.CategoriesAdapter
+import com.example.belgorodtravelguide.data.modelEntertainment.CategoriesListData
+import com.example.belgorodtravelguide.data.modelEntertainment.CategoryDetail
+import com.example.belgorodtravelguide.data.modelEntertainment.HeaderData
 
 class EntertainmentFragment : Fragment() {
     private var _binding: FragmentEntertainmentBinding? = null

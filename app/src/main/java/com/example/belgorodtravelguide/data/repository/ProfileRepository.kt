@@ -1,6 +1,8 @@
-package com.example.belgorodtravelguide.model.modelProfile
+package com.example.belgorodtravelguide.data.repository
 
 import android.content.Context
+import com.example.belgorodtravelguide.data.modelProfile.Profile
+import com.example.belgorodtravelguide.data.modelProfile.ProfileDatabase
 
 class ProfileRepository {
         suspend fun getProfile(context: Context): Profile? {

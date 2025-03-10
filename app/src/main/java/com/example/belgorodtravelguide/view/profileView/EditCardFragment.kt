@@ -7,8 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
+import com.example.belgorodtravelguide.R
 import com.example.belgorodtravelguide.databinding.FragmentEditCardBinding
-import com.example.belgorodtravelguide.model.modelProfile.Profile
+import com.example.belgorodtravelguide.data.modelProfile.Profile
 import com.example.belgorodtravelguide.viewModel.profileAndMarketVM.ProfileAndMarketViewModel
 import kotlinx.coroutines.launch
 
@@ -67,10 +69,8 @@ class EditCardFragment : Fragment() {
                     phoneNumber = binding.phoneNumberText.text.toString(),
                     socialNetwork = binding.socialNetworkText.text.toString(),
                 )
-
-
                 viewModel.saveData(updatedProfile, requireContext()) {
-                    parentFragmentManager.popBackStack() // закрыл фрагмент как сохранил
+                    findNavController().navigate(R.id.action_editCardFragment_to_profileFragment) // закрыл фрагмент как сохранил
                 }
             }
         }

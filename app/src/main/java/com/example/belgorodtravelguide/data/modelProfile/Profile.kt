@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelProfile
+package com.example.belgorodtravelguide.data.modelProfile
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

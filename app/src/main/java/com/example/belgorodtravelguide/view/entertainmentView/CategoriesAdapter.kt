@@ -1,12 +1,12 @@
-package com.example.belgorodtravelguide.viewModel.entertainmentVM
+package com.example.belgorodtravelguide.view.entertainmentView
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.belgorodtravelguide.databinding.CardItemCategoryBinding
 import com.example.belgorodtravelguide.databinding.ItemHeaderBinding
-import com.example.belgorodtravelguide.model.modelEntertainment.CategoriesListData
-import com.example.belgorodtravelguide.model.modelEntertainment.HeaderData
+import com.example.belgorodtravelguide.data.modelEntertainment.CategoriesListData
+import com.example.belgorodtravelguide.data.modelEntertainment.HeaderData
 
 class CategoriesAdapter(
     private val items: List<Any>,

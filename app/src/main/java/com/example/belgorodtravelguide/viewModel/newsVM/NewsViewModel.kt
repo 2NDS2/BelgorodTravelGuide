@@ -8,11 +8,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.belgorodtravelguide.model.modelNews.api.NewsArticle
-import com.example.belgorodtravelguide.model.modelNews.api.NewsResponse
-import com.example.belgorodtravelguide.model.modelNews.api.RetrofitInstance
-import com.example.belgorodtravelguide.model.modelNews.bd.NewsArticleEntity
-import com.example.belgorodtravelguide.model.modelNews.bd.NewsDatabase
+import com.example.belgorodtravelguide.data.modelNews.api.NewsArticle
+import com.example.belgorodtravelguide.data.modelNews.api.NewsResponse
+import com.example.belgorodtravelguide.data.modelNews.api.RetrofitInstance
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsArticleEntity
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

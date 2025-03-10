@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelNews.api
+package com.example.belgorodtravelguide.data.modelNews.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

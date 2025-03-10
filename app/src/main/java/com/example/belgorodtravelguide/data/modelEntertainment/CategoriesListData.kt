@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelEntertainment
+package com.example.belgorodtravelguide.data.modelEntertainment
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

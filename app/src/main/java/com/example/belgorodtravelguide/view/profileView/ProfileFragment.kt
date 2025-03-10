@@ -10,7 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.belgorodtravelguide.R
 import com.example.belgorodtravelguide.databinding.FragmentProfileBinding
-import com.example.belgorodtravelguide.model.modelProfile.ProfileRepository
+import com.example.belgorodtravelguide.data.repository.ProfileRepository
 import com.example.belgorodtravelguide.viewModel.profileAndMarketVM.ProfileAndMarketViewModel
 import kotlinx.coroutines.launch
 

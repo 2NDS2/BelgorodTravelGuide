@@ -12,7 +12,7 @@ import androidx.cardview.widget.CardView
 import com.example.belgorodtravelguide.R
 import com.example.belgorodtravelguide.databinding.FragmentDetailBinding
 
-import com.example.belgorodtravelguide.model.modelEntertainment.CategoriesListData as CategoriesListData1
+import com.example.belgorodtravelguide.data.modelEntertainment.CategoriesListData as CategoriesListData1
 
 class DetailFragment : Fragment() {
     private var _binding: FragmentDetailBinding? = null

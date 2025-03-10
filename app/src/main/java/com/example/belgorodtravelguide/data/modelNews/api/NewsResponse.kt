@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelNews.api
+package com.example.belgorodtravelguide.data.modelNews.api
 
 data class NewsResponse(
     val status: String,

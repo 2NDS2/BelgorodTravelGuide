@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelNews.bd
+package com.example.belgorodtravelguide.data.modelNews.bd
 
 import android.content.Context
 import androidx.room.Database

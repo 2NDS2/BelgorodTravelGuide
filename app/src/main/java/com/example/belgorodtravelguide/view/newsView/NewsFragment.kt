@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.view
+package com.example.belgorodtravelguide.view.newsView
 
 import android.content.Intent
 import android.net.Uri
@@ -12,9 +12,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.belgorodtravelguide.databinding.FragmentNewsBinding
-import com.example.belgorodtravelguide.model.modelNews.bd.NewsDatabase
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsDatabase
 import com.example.belgorodtravelguide.viewModel.newsVM.NewsViewModel
-import com.example.belgorodtravelguide.viewModel.newsVM.NewsAdapter
 import com.example.belgorodtravelguide.viewModel.newsVM.factory.NewsViewModelFactory
 
 class NewsFragment : Fragment() {

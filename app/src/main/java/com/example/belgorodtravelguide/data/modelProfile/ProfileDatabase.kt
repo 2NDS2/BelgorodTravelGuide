@@ -1,13 +1,16 @@
-package com.example.belgorodtravelguide.model.modelProfile
+package com.example.belgorodtravelguide.data.modelProfile
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsArticleEntity
+import com.example.belgorodtravelguide.data.modelNews.bd.NewsDao
 
-@Database(entities = [Profile::class], version = 1, exportSchema = false)
+@Database(entities = [Profile::class, NewsArticleEntity::class], version = 1, exportSchema = false)
 abstract class ProfileDatabase: RoomDatabase() {
     abstract val profileDao: ProfileDao
+    abstract val newsDao: NewsDao
 
     companion object{
         @Volatile

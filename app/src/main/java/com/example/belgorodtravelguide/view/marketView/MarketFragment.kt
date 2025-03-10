@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.view
+package com.example.belgorodtravelguide.view.marketView
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,9 +10,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.belgorodtravelguide.databinding.FragmentMarketBinding
-import com.example.belgorodtravelguide.model.modelMarket.Item
+import com.example.belgorodtravelguide.data.modelMarket.Item
 import com.example.belgorodtravelguide.viewModel.profileAndMarketVM.ProfileAndMarketViewModel
-import com.example.belgorodtravelguide.viewModel.profileAndMarketVM.MarketAdapter
 
 
 class MarketFragment : Fragment() {

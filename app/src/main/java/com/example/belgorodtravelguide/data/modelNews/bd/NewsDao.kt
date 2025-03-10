@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelNews.bd
+package com.example.belgorodtravelguide.data.modelNews.bd
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,4 +1,4 @@
-package com.example.belgorodtravelguide.model.modelProfile
+package com.example.belgorodtravelguide.data.modelProfile
 
 import androidx.room.Dao
 import androidx.room.Delete
