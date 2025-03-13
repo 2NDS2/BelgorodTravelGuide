@@ -33,7 +33,7 @@ class NewsFragment : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+                              savedInstanceState: Bundle?): View {
         _binding = FragmentNewsBinding.inflate(inflater, container, false)
 
         setupRecyclerView()
@@ -44,7 +44,7 @@ class NewsFragment : Fragment() {
 
     private fun showContent() {
         //проверка наличия интернета
-        if (viewModel.isInternetAvailable(requireContext())) {
+        if (viewModel.isInternetAvailable()) {
             //интернет есть, очищаем бд и загружаем новости с сервера
             viewModel.clearDatabase()
             viewModel.fetchNews()

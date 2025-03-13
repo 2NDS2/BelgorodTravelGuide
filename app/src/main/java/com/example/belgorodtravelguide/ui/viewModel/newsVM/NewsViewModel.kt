@@ -108,11 +108,11 @@ class NewsViewModel(private val newsRepository: NewsRepository, private val cont
     }
 
     //проверка интернет-соединения
-    fun isInternetAvailable(requireContext: Context): Boolean {
+    fun isInternetAvailable(): Boolean {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {                            /// перепроверь это мб оно и не надо
             val networkInfo = connectivityManager.activeNetworkInfo
-            return networkInfo != null && networkInfo.isConnected
+            return networkInfo != null && networkInfo.isConnected                           // до сих пор
         }
         val activeNetwork = connectivityManager.activeNetwork
         val networkCapabilities = connectivityManager.getNetworkCapabilities(activeNetwork)
