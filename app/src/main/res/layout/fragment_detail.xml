@@ -8,7 +8,7 @@
     android:id="@+id/descriptionLayout"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".view.entertainmentView.DetailFragment">
+    tools:context=".ui.view.entertainmentView.DetailFragment">
 
 
 </LinearLayout>

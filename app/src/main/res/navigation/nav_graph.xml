@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.example.belgorodtravelguide.view.newsView.NewsFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.newsView.NewsFragment"
         android:label="fragment_news"
         tools:layout="@layout/fragment_news" />
     <fragment
         android:id="@+id/entertainmentFragment"
-        android:name="com.example.belgorodtravelguide.view.entertainmentView.EntertainmentFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.entertainmentView.EntertainmentFragment"
         android:label="fragment_entertainment"
         tools:layout="@layout/fragment_entertainment" >
         <action
@@ -21,16 +21,16 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.belgorodtravelguide.view.entertainmentView.DetailFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.entertainmentView.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="category"
-            app:argType="com.example.belgorodtravelguide.data.modelEntertainment.CategoriesListData" />
+            app:argType="com.example.belgorodtravelguide.domain.modelEntertainment.CategoriesListData" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.belgorodtravelguide.view.profileView.ProfileFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.profileView.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -39,12 +39,12 @@
     </fragment>
     <fragment
         android:id="@+id/marketFragment"
-        android:name="com.example.belgorodtravelguide.view.marketView.MarketFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.marketView.MarketFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
     <fragment
         android:id="@+id/editCardFragment"
-        android:name="com.example.belgorodtravelguide.view.profileView.EditCardFragment"
+        android:name="com.example.belgorodtravelguide.ui.view.profileView.EditCardFragment"
         android:label="EditCardFragment">
         <action
             android:id="@+id/action_editCardFragment_to_profileFragment"
